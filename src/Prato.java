@@ -32,6 +32,13 @@ public class Prato {
 	public String getDescricao() {
 		return descricao;
 	}
+
+	@Override
+	public String toString() {
+		return "Nome: " + nome + ""	+ "  " + preco + "\n"
+						+ "\nDescricao: " + descricao + "]";
+	}
+	
 	
 	
 }
